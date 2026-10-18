@@ -8,18 +8,24 @@
         >
         <span class="text-sm font-semibold text-slate-900 sm:text-base">JustServe Pfahl Zürich</span>
       </RouterLink>
-      <nav class="flex items-center gap-1 text-sm">
+      <nav class="flex items-center gap-0.5 text-sm sm:gap-1">
         <RouterLink
           to="/"
-          class="rounded-full px-3 py-2 text-slate-600 transition hover:bg-slate-100"
+          class="rounded-full px-2.5 py-2 text-slate-600 transition hover:bg-slate-100 sm:px-3"
           active-class="bg-slate-100 text-slate-900"
           >Übersicht</RouterLink
         >
         <RouterLink
           to="/cleanup"
-          class="rounded-full px-3 py-2 text-slate-600 transition hover:bg-slate-100"
+          class="rounded-full px-2.5 py-2 text-slate-600 transition hover:bg-slate-100 sm:px-3"
           active-class="bg-slate-100 text-slate-900"
           >Clean-Up Day</RouterLink
+        >
+        <RouterLink
+          to="/kispi"
+          class="rounded-full px-2.5 py-2 text-slate-600 transition hover:bg-slate-100 sm:px-3"
+          active-class="bg-slate-100 text-slate-900"
+          >Kispi</RouterLink
         >
       </nav>
     </div>

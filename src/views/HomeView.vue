@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import ScriptureBand from '../components/ScriptureBand.vue'
 
-const KISPI_URL = 'https://phhofm.github.io/justserve-kispi-175/'
 const NEWS_1 =
   'https://news-ch.kirchejesuchristi.org/artikel/ehrenamtlicher-einsatz-der-kirche-jesu-christi-der-heiligen-der-letzten-tage-in-zurich'
 const NEWS_2 =
@@ -43,10 +42,8 @@ const NEWS_2 =
       <h2 class="mt-10 text-xl font-semibold text-slate-900 sm:text-2xl">Unsere zwei Projekte 2027</h2>
 
       <div class="mt-4 grid gap-5 sm:grid-cols-2">
-        <a
-          :href="KISPI_URL"
-          target="_blank"
-          rel="noopener"
+        <RouterLink
+          to="/kispi"
           class="group flex flex-col rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:shadow-md hover:ring-blue-200"
         >
           <span class="text-3xl" aria-hidden="true">🧸</span>
@@ -60,7 +57,7 @@ const NEWS_2 =
           <span class="mt-4 text-sm font-semibold text-blue-700 group-hover:underline"
             >Zum Projekt →</span
           >
-        </a>
+        </RouterLink>
 
         <RouterLink
           to="/cleanup"

@@ -11,9 +11,9 @@ describe('HomeView', () => {
     expect(w.text()).toContain('Nationaler Clean-Up Day')
   })
 
-  it('verlinkt die bestehende Kispi-Seite', () => {
+  it('verlinkt die Kispi-Seite intern', () => {
     const w = mount(HomeView, { global })
-    expect(w.html()).toContain('justserve-kispi-175')
+    expect(w.html()).toContain('/kispi')
   })
 
   it('nennt 2027, 2028 und das vergangene Projekt', () => {
