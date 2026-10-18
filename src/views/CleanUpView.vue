@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ScriptureBand from '../components/ScriptureBand.vue'
 
-const IGSU_ANMELDUNG = 'https://www.igsu.ch/de/clean-up-day/anmeldung/'
+const IGSU_LINK = 'https://www.igsu.ch/de/clean-up-day/clean-up-day/'
 
 const MITBRINGEN = [
   { icon: '👕', titel: 'Wetterfeste Kleidung', text: 'Lange Hosen, feste Schuhe, bei Regen eine Jacke.' },
@@ -19,7 +19,7 @@ const MITBRINGEN = [
           Nationaler Clean-Up Day 2027
         </p>
         <h1 class="mt-5 text-3xl font-bold tracking-tight sm:text-5xl">
-          Gemeinsam aufräumen am Chinagarten
+          Gemeinsam aufräumen beim Chinagarten
         </h1>
         <p class="mx-auto mt-5 max-w-2xl text-base text-emerald-50 sm:text-lg">
           Samstag, 18. September 2027 · 10 Uhr · Chinagarten Zürich
@@ -35,7 +35,7 @@ const MITBRINGEN = [
         <h2 class="text-xl font-semibold text-slate-900">Warum wir mitmachen</h2>
         <p class="mt-2 leading-relaxed text-slate-600">
           Wir dienen, weil Jesus Christus dient. Die Erde ist nicht unser Eigentum, sondern ein
-          Geschenk, das wir gemeinsam hüten dürfen. Wenn wir am Chinagarten aufräumen, tun wir etwas
+          Geschenk, das wir gemeinsam hüten dürfen. Wenn wir beim Chinagarten aufräumen, tun wir etwas
           für unsere Stadt, für die Menschen, die hier wohnen, und für die Schöpfung. Und wir zeigen,
           dass wir als Kirche zur Schweiz gehören – seit 175 Jahren.
         </p>
@@ -54,7 +54,7 @@ const MITBRINGEN = [
           Der Nationale Clean-Up Day ist die grösste Aufräumaktion der Schweiz. 2027 findet er am
           Freitag, 17. und Samstag, 18. September statt. Der Pfahl Zürich beteiligt sich am
           <strong>Samstag, 18. September</strong>, mit einer eigenen Aktion am
-          <strong>Chinagarten</strong> am Zürichsee.
+          <strong>Chinagarten</strong> beim Zürichsee.
         </p>
       </section>
 
@@ -80,17 +80,18 @@ const MITBRINGEN = [
             </p>
           </div>
           <div class="rounded-xl bg-slate-50 p-4">
-            <h3 class="font-semibold text-slate-900">2. In der eigenen Gemeinde aufräumen</h3>
+            <h3 class="font-semibold text-slate-900">2. Als Gemeinde dienen</h3>
             <p class="mt-1 text-sm leading-relaxed text-slate-600">
-              Ihr möchtet lokal in Eurer Gemeinde eine eigene Aktion machen? Meldet sie direkt bei
-              der IGSU an. Das läuft nicht über den Pfahl.
+              Vom Pfahl organisiert ist der Chinagarten. Falls Ihr aber lokal dienen möchtet, könnt
+              Ihr Euch auch als Gemeinde oder Zweig direkt bei der IGSU melden – unabhängig vom
+              Pfahl.
             </p>
             <a
-              :href="IGSU_ANMELDUNG"
+              :href="IGSU_LINK"
               target="_blank"
               rel="noopener"
               class="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
-              >Zur IGSU-Anmeldung →</a
+              >Zur IGSU →</a
             >
           </div>
         </div>

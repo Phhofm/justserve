@@ -26,7 +26,8 @@ describe('CleanUpView', () => {
 
   it('nennt den Weg über die eigene Gemeinde', () => {
     const w = mount(CleanUpView)
-    expect(w.text()).toContain('eigenen Gemeinde')
+    expect(w.text()).toContain('Als Gemeinde dienen')
+    expect(w.text()).toContain('unabhängig vom Pfahl')
     expect(w.html()).toContain('igsu.ch')
   })
 })

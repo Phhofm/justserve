@@ -15,7 +15,7 @@ const NEWS_2 =
         <p class="inline-block rounded-full bg-white/15 px-4 py-1 text-sm font-medium tracking-wide">
           JustServe Pfahl Zürich
         </p>
-        <h1 class="mt-5 text-3xl font-bold tracking-tight sm:text-5xl">2027 – gemeinsam dienen</h1>
+        <h1 class="mt-5 text-3xl font-bold tracking-tight sm:text-5xl">Gemeinsam dienen</h1>
         <p class="mx-auto mt-5 max-w-2xl text-base text-blue-50 sm:text-lg">
           Wir dienen, weil Jesus Christus dient. Aus Liebe zu unserem Erlöser tun wir Gutes – für die
           Kinder im Kinderspital, für unsere Umwelt, für unsere Gemeinschaft und unser Land.
@@ -29,8 +29,7 @@ const NEWS_2 =
         <p class="mt-2 leading-relaxed text-slate-600">
           Dienst ist für uns keine Pflicht, sondern eine Antwort auf die Liebe, die wir von Jesus
           Christus empfangen haben. Er hat sich den Menschen zugewandt – den Kranken, den Kleinen, den
-          Vergessenen. Wenn wir dasselbe tun, dienen wir ihm. Darum gehen wir 2027 gemeinsam an zwei
-          Orten hin: zu den kranken Kindern und zu unserer Umwelt.
+          Vergessenen. Wenn wir dasselbe tun, dienen wir ihm.
         </p>
       </section>
 
@@ -68,9 +67,9 @@ const NEWS_2 =
           class="group flex flex-col rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition hover:shadow-md hover:ring-blue-200"
         >
           <span class="text-3xl" aria-hidden="true">🌿</span>
-          <h3 class="mt-3 text-lg font-semibold text-slate-900">Nationaler Clean-Up Day</h3>
+          <h3 class="mt-3 text-lg font-semibold text-slate-900">Nationaler Clean-Up Day Schweiz</h3>
           <p class="mt-1 grow text-sm leading-relaxed text-slate-600">
-            Am Samstag, 18. September 2027, räumen wir gemeinsam am Chinagarten in Zürich auf – als
+            Am Samstag, 18. September 2027, räumen wir gemeinsam beim Chinagarten in Zürich auf – als
             Teil der schweizweiten Aktion.
           </p>
           <span class="mt-4 text-sm font-semibold text-blue-700 group-hover:underline"
@@ -98,9 +97,6 @@ const NEWS_2 =
       <section class="mt-8 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100 sm:p-8">
         <h2 class="text-xl font-semibold text-slate-900">Vergangene Projekte</h2>
         <h3 class="mt-3 font-semibold text-slate-900">1000 ehrenamtliche Arbeitsstunden Zürich</h3>
-        <p class="mt-1 text-sm leading-relaxed text-slate-600">
-          Auch früher schon hat sich die Kirche in Zürich ehrenamtlich engagiert. Zwei Berichte:
-        </p>
         <ul class="mt-3 space-y-2 text-sm">
           <li>
             <a
