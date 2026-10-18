@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import ShareButton from './ShareButton.vue'
-
 defineProps<{ gesamtziel: number }>()
 defineEmits<{ beitragen: [] }>()
 </script>
@@ -38,9 +36,6 @@ defineEmits<{ beitragen: [] }>()
         </button>
       </div>
 
-      <div class="mt-4 flex justify-center">
-        <ShareButton auf-dunkel />
-      </div>
     </div>
   </header>
 </template>

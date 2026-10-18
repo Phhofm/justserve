@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ScriptureBand from '../components/ScriptureBand.vue'
+import ShareButton from '../components/ShareButton.vue'
 
 const NEWS_1 =
   'https://news-ch.kirchejesuchristi.org/artikel/ehrenamtlicher-einsatz-der-kirche-jesu-christi-der-heiligen-der-letzten-tage-in-zurich'
@@ -19,6 +20,9 @@ const NEWS_2 =
           Wir dienen, weil Jesus Christus dient. Aus Liebe zu unserem Erlöser tun wir Gutes – für die
           Kinder im Kinderspital, für unsere Umwelt, für unsere Gemeinschaft und unser Land.
         </p>
+        <div class="mt-7 flex justify-center">
+          <ShareButton auf-dunkel />
+        </div>
       </div>
     </section>
 

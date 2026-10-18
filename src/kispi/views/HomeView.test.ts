@@ -110,10 +110,9 @@ describe('HomeView', () => {
     expect(w.text()).toContain('Beitrag einreichen')
   })
 
-  it('bietet Teilen, Zeitleiste und Kontakt an', async () => {
+  it('bietet Zeitleiste und Kontakt an', async () => {
     const w = mount(HomeView)
     await flushPromises()
-    expect(w.text()).toContain('teilen')
     expect(w.text()).toContain('Unser Weg')
     expect(w.text()).toContain('Philip Hofmann')
   })
