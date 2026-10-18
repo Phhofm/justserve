@@ -1,12 +1,15 @@
 <script setup lang="ts">
 withDefaults(defineProps<{ aufDunkel?: boolean }>(), { aufDunkel: false })
 
-const titel = 'Trösterli für das Kinderspital Zürich'
-const text = 'Mach mit: Trösterli für die tapferen Kinder im Kinderspital Zürich!'
+const titel = 'JustServe Pfahl Zürich – Gemeinsam dienen'
+const text =
+  'Mach mit: Trösterli für die tapferen Kinder im Kinderspital Zürich und Beteiligung am Schweizer Clean-Up-Day.'
 
 async function teilen() {
   const url = window.location.href
-  const nav = navigator as Navigator & { share?: (d: { title: string; text: string; url: string }) => Promise<void> }
+  const nav = navigator as Navigator & {
+    share?: (d: { title: string; text: string; url: string }) => Promise<void>
+  }
   if (typeof nav.share === 'function') {
     try {
       await nav.share({ title: titel, text, url })
