@@ -14,7 +14,6 @@ import CategoryCard from '../components/CategoryCard.vue'
 import MutmacherSection from '../components/MutmacherSection.vue'
 import DonationSection from '../components/DonationSection.vue'
 import MosaicSection from '../components/MosaicSection.vue'
-import KontaktSection from '../components/KontaktSection.vue'
 import UploadModal from '../components/UploadModal.vue'
 
 const { beitraege, fortschritt, fehler, laden } = useContributions()
@@ -138,9 +137,6 @@ onMounted(laden)
         />
       </div>
 
-      <div class="mt-10">
-        <KontaktSection />
-      </div>
     </main>
 
 
